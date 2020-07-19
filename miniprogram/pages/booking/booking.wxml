@@ -1,0 +1,19 @@
+<!--miniprogram/pages/booking/booking.wxml-->
+<view>
+  <text>miniprogram/pages/booking/booking.wxml</text>
+  <!-- <yycalendar
+    show="{{isShow}}"
+    bind:yybindchange="_yybindchange"
+    bind:yybindhide="_yybindhide"
+  /> -->
+  <yycalendar 
+    show='{{isShow}}' 
+    beginTime="{{beginTime}}"
+    endTime="{{endTime}}"
+    timeGap="{{timeGap}}"
+    themeColor="{{themeColor}}" 
+    calendarType="{{calendarType}}" 
+    bind:yybindchange="_yybindchange" 
+    bind:yybindhide="_yybindhide"
+  />
+  </view>
